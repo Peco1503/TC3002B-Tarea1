@@ -1,1 +1,4 @@
-# TC3002B-Tarea1
+# Tarea #1: Implementación de Estructuras de Datos
+
+## Descripción
+![Enunciado de la Tarea](tarea1.png)
