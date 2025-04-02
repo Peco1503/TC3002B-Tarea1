@@ -1,7 +1,5 @@
 class Stack:
     def __init__(self):
-        # Inicializar lista vacia para almacenar los objetos
-        # stack re
         self._stack = []
 
     def push(self, element):
@@ -12,7 +10,7 @@ class Stack:
     def pop(self):
         """Remove element from the stack"""
         if not self._stack:
-            print("Stack is empty")
+            print(" Stack is empty")
             return None
         return self._stack.pop()
     
