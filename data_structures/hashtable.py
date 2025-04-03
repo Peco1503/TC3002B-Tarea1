@@ -5,21 +5,21 @@ class HashTable:
     def insert(self, key, value):
         """Insert a key-value pair into the hashtable"""
         if key in self._table:
-            print(f"Key {key} already exists. Updating value.")
+            print(f" Key {key} already exists. Updating value.")
         self._table[key] = value
         print(f"Inserted {key}: {value} into the hashtable")
 
     def get(self, key):
         """Retrieve a value by key from the hashtable"""
         if key not in self._table:
-            print(f"Key {key} not found in the hashtable")
+            print(f" Key {key} not found in the hashtable")
             return None
         return self._table[key]
     
     def delete(self, key):
         """Delete a key-value pair from the hashtable"""
         if key not in self._table:
-            print(f"Key {key} not found in the hashtable")
+            print(f" Key {key} not found in the hashtable")
             return
         del self._table[key]
         print(f" Deleted {key} from the hashtable")

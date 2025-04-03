@@ -67,7 +67,7 @@ def test_hashtable():
     hashtable.insert("c", 3)
 
     print(" Current hashtable size:", hashtable.size())  # Should be 3
-    print(" Value for key 'b':", hashtable.get("b"))  # Should be 2
+    print("\n Value for key 'b':", hashtable.get("b"))  # Should be 2
 
     print("\n Deleting key 'b'")
     hashtable.delete("b")
